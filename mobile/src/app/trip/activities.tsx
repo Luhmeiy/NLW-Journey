@@ -140,7 +140,7 @@ export function Activities({ tripDetails }: Props) {
 				</Button>
 			</View>
 
-			{!isLoadingActivities ? (
+			{isLoadingActivities ? (
 				<Loading />
 			) : (
 				<SectionList
